@@ -94,6 +94,9 @@ p {
   padding-bottom: 200px;
   background: var(--background-hero-color);
   text-align: center;
+  background-image: url(../images/bg-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-title {
