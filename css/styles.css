@@ -196,7 +196,7 @@ p {
   display: flex;
   margin-right: -30px;
 }
-.team-list li {
+.team-item {
   flex-basis: calc((100% - 30px) / 4);
   margin-right: 30px;
   text-align: center;
@@ -210,6 +210,7 @@ p {
   color: var(--main-color);
 }
 .team-profession {
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -218,11 +219,11 @@ p {
 .team-text {
   padding: 30px 32px;
 }
-.team-item .cocial-icons {
+.cocial-icons {
   display: flex;
-  margin-top: 16px;
+  
 }
-.team-item .cocial-item {
+.cocial-item {
   width: 44px;
   height: 44px;
   margin-right: 10px;
@@ -244,6 +245,37 @@ p {
 }
 .cocial-link:hover {
   fill: var(--white-color);
+}
+    /* Постійні клієнти */
+
+.customers-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}  
+.customers-item {
+  margin-right: 30px;
+}
+.customers-item:last-child {
+  margin-right: 0;
+}
+.customers-link {
+  display: flex;
+  fill: #afb1b8;
+  padding: 16px 32px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+} 
+.customers-list {
+  display: flex;
+}
+
+.customers-link:hover{
+  border-color: var(--active-color);
+  fill: var(--active-color);
 }
 /* Футер */
 .footer {
