@@ -88,6 +88,11 @@ p {
 .active-link:focus {
   color: var(--active-color);
 }
+.header-link::before {
+  content: "";
+  width: 16px;
+  height: 12px;
+  }
 
 .hero {
   padding-top: 200px;
@@ -128,9 +133,6 @@ p {
 
 /* Наші переваги */
 
-.benefits {
-  padding-top: 94px;
-}
 .benefits-title {
   margin-bottom: 10px;
   font-size: 14px;
@@ -142,6 +144,22 @@ p {
 .benefits-list {
   display: flex;
 }
+.benefits-icon-list {
+display: flex;
+}
+.benefits-icon-item {
+padding: 25px 100px;
+background-color:var(--team-background-color);
+border-radius: 4px;
+margin-right: 30px;
+margin-bottom: 30px;
+
+}
+.benefits-icon-item:last-child{
+  margin-right: 0;
+}
+
+
 .benefits-list li:not(:first-child) {
   margin-left: 30px;
 }
