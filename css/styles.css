@@ -246,7 +246,7 @@ p {
   margin-right: 10px;
   border-radius: 50%;
 }
-.team-item .cocial-item:last-child {
+.cocial-item:last-child {
   margin-right: 0;
 }
 .cocial-link {
@@ -330,6 +330,29 @@ p {
   display: inline-block;
   color: inherit;
 }
+.footer .container {
+  display: flex;
+}
+.footer-title {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.footer-cocial-item {
+  background-color:rgba(255, 255, 255, 0.1) ;
+}
+.footer-cocial-link {
+  fill: var(--white-color);
+}
+.footer-cocial-icons {
+  margin-left: 70px;
+  padding-top: 12px;
+  
+}
+
 /* Сторінка Портфоліо */
 
 .visually-hidden {
