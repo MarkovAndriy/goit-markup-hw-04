@@ -263,6 +263,10 @@ p {
 .cocial-link:hover {
   fill: var(--white-color);
 }
+.cocial-link:focus {
+  background-color: var(--active-color);
+  fill: var(--white-color);
+}
 /* Постійні клієнти */
 
 .customers-title {
@@ -290,7 +294,8 @@ p {
   display: flex;
 }
 
-.customers-link:hover {
+.customers-link:hover,
+.customers-link:focus {
   border-color: var(--active-color);
   fill: var(--active-color);
 }
@@ -342,7 +347,7 @@ p {
   color: var(--white-color);
 }
 .footer-cocial-item {
-  background-color:rgba(255, 255, 255, 0.1) ;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .footer-cocial-link {
   fill: var(--white-color);
@@ -350,7 +355,6 @@ p {
 .footer-cocial-icons {
   margin-left: 70px;
   padding-top: 12px;
-  
 }
 
 /* Сторінка Портфоліо */
@@ -384,6 +388,14 @@ p {
   color: var(--white-color);
   background-color: var(--active-color);
 }
+.filters-list-item:hover,
+.filters-list-item:focus {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.filters-list-item {
+  border-radius: 4px;
+}
+
 .projects-list {
   display: flex;
   flex-wrap: wrap;
@@ -395,6 +407,9 @@ p {
 .projects {
   padding: 20px 24px;
   border: 1px solid var(--border-color);
+}
+.projects-item:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 .projects-list li {
   flex-basis: calc((100% - 30px) / 4);
